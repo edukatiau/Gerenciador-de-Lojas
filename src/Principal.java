@@ -73,7 +73,7 @@ public class Principal {
         int ano = sc.nextInt();
         Data dataFuncação = new Data(dia, mes, ano);
 
-        loja1 = new Loja(nome, quantidadeFuncionarios, salarioBaseFuncionario, endereço, dataFuncação);
+        loja1 = new Loja(nome, quantidadeFuncionarios, salarioBaseFuncionario, endereço, dataFuncação, 1);
     }
 
     public static void criarProduto(){
